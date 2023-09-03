@@ -2,7 +2,7 @@
 import streamlit as st
 import pandas as pd
 import pickle
-
+  
 # Cargar el archivo .pkl que contiene el modelo de Random Forest
 pkl_filename = "./Modelo_Random_Forest.pkl"
 with open(pkl_filename, 'rb') as file:
